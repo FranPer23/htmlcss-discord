@@ -160,50 +160,51 @@ h1 {
    background-position: center;
 }
 /* FOOTER */
+
+footer {
+   background-color:  #23272a;
+}
+
 .top-footer {
    height: 350px;
-
+   color: #7289da;
+   
 }
+
+.lingua {
+   display: inline-block ;
+}
+
+ul {
+   list-style-type: none;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
 
 .stripe {
    width: 17%;
    /* debug */
    height: 300px;
-   border: 1px dashed black;
-   background-color: blue;
 }
 
 .column-small-footer{
-   /* debug */
-   border: 1px dashed black;
    width: 30%;
-   background-color: lightblue;
    height: 300px;
 }
+
+li:first-child {
+   color: #7289da;
+   font-weight: bold;
+}
+
 
 hr {
    color: white;
 }
 
-.bottom-footer {
-   /* debug */
-   padding-top: 20px;
-   height: 70px;
-   background-color: lightslategray ;
-}
 
 .small-container-footer {
-   background-color: yellow;
-   border: 1px solid black;
-   line-height: 40px;
    justify-content: space-between;
 
-}
-
-
-.logo-bottom,
-.btn {
-   background-color: pink;
-   border: 1px dashed black;
-   line-height: 30px;
 }
