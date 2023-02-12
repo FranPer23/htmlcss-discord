@@ -1,0 +1,168 @@
+/* RESET */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+img {
+   width: 100%;
+}
+
+
+/* Utilities */
+.flex {
+   display: flex;
+}
+
+.center {
+   margin: 0 auto;
+   width: 50%;
+}
+
+a {
+   text-decoration: none;
+}
+
+/* HEADER */
+.header {
+   padding-top: 20px;
+   height: 70px;
+   background-color: #255ee9;
+}
+
+/* header top */
+.small-container {
+   background-color: #255ee9;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.login {
+   background-color: white;
+   border-radius: 20px;
+   color: black;
+   padding: .5rem;
+   vertical-align: middle;
+   font-size: 1rem;
+   display: inline-block;
+}
+
+
+.link a {
+   color: white;
+}
+
+/* header bottom */
+
+.jumbotron {
+   padding-top: 30px;
+   background-image: url();
+   /* debug */
+   height: 300px;
+
+}
+
+
+.box-header {   
+   /* debug */
+   height: 80%;
+   border: dashed 1px black;
+}
+
+/* MAIN */
+.block {
+   /* debug */
+   height: 300px;
+   background-color: lightskyblue;
+}
+
+.block-2 {
+   /* debug */
+   height: 300px;
+   background-color: lightgray; 
+}
+
+.column-big {
+   
+   border: 1px dashed black;
+   width: 70%;
+   background-color: pink;
+   height: 200px;
+}
+
+.column-small {
+   
+   border: 1px dashed black;
+   width: 30%;
+   background-color: lightblue;
+   height: 200px;
+}
+
+.row {
+   padding: 20px;
+}
+
+.lastblock {
+   /* debug */
+   background-color: darkgray;
+   height: 500px;
+}
+
+.green {
+   /* debug */
+   background-color: green;
+   border: 1px dashed black;
+   height: 80%;
+}
+
+.top-footer {
+   /* debug */
+   background-color: lightslategray;
+   height: 350px;
+
+}
+
+.stripe {
+   width: 17%;
+   /* debug */
+   height: 300px;
+   border: 1px dashed black;
+   background-color: blue;
+}
+
+.column-small-footer{
+   /* debug */
+   border: 1px dashed black;
+   width: 30%;
+   background-color: lightblue;
+   height: 300px;
+}
+
+hr {
+   color: white;
+}
+
+.bottom-footer {
+   /* debug */
+   padding-top: 20px;
+   height: 70px;
+   background-color: lightslategray ;
+}
+
+.small-container-footer {
+   background-color: yellow;
+   border: 1px solid black;
+   line-height: 40px;
+   justify-content: space-between;
+
+}
+
+
+.logo-bottom,
+.btn {
+   background-color: pink;
+   border: 1px dashed black;
+   line-height: 30px;
+}
